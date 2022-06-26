@@ -163,9 +163,9 @@ ul {
 
 /*btn-default*/
 .btn-default {
-    color            : #0e1555;
+    color            : #FFFFFF;
     background-color : transparent;
-    border-color     : #0e1555;
+    border-color     : #FFFFFF;
     }
 
 .btn-default:hover,
