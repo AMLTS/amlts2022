@@ -363,7 +363,7 @@ button:focus,
 .jumbotron .content {
     color             : #0e1555;
     position          : absolute;
-    top               : 53%;
+    top               : 55%;
     left              : 0;
     right             : 0;
     height            : 30%;
@@ -383,15 +383,17 @@ button:focus,
 .jumbotron .content p.lead {
     font-size   : 20px;
     line-height : 1.5em;
+    color       : #FFFFFF
     }
 
 .jumbotron .content .event-date {
     font-size     : 20px;
     margin-bottom : 40px;
+    color       : #FFFFFF
     }
 
 .jumbotron .btn {
-    margin-top : 20px;
+    margin-top : 15px;
     }
 
 @media (max-width : 600px) {
@@ -400,7 +402,7 @@ button:focus,
         }
 
     .jumbotron .content h1 {
-        font-size : 26px;
+        font-size : 22px;
         }
 
     .jumbotron .content p.lead {
