@@ -376,9 +376,9 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #FFFFFF; 
+    color       : #0e1555;
     font-weight : bold;
-    font-size   : 34px;
+    font-size   : 44px;
     }
 
 .jumbotron .content p.lead {
