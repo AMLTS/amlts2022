@@ -273,7 +273,7 @@ button:focus,
     }
 
 .main-menu .nav li a {
-    color       : #f7a01e;
+    color       : #0e1555;
     font-weight : 500;
     padding     : 15px 0 15px 30px;
     }
@@ -361,7 +361,7 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #FFFFFF;
+    color             : #0e1555;
     position          : absolute;
     top               : 60%;
     left              : 0;
@@ -376,7 +376,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #FFFFFF;
+    color       : #0e1555;
     font-weight : bold;
     font-size   : 44px;
     }
@@ -384,7 +384,7 @@ button:focus,
 .jumbotron .content p.lead {
     font-size   : 20px;
     line-height : 1.5em;
-    color       : #FFFFFF;
+    color       : #0e1555;
      font-weight : bold;
     }
 
@@ -392,7 +392,7 @@ button:focus,
     font-size     : 20px;
     margin-bottom : 40px;
     font-weight : bold;
-   color       : #FFFFFF;
+   color       : #0e1555
     }
 
 .jumbotron .btn {
