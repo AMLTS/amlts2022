@@ -174,17 +174,45 @@ We invite quality, novel, and ingenious contributions within an industrial appli
 
                 	<div class="col-sm-0 col-md-8">
                    		<div class="section-title">
-                        		<h3 align="left">Topic: BSTS -TBD</h3>
+                        		<h3 align="left">Recent Advances in Bayesian Structural Time Series</h3>
 					<p></p>
 					<h4  align="left">Steven Scott</a></h4>
                         		<h4  align="left"><small> Director of Data Science at ShareThis</small></h4>
 					<p></p>
-                        		<h5 align="left"> TBD 
+                        		<h5 align="justify"> 
+						
+						Bayesian structural time series models are a powerful and flexible class of time
+series models. They combine additive models for trends, seasonality, regression
+effects, holidays, and potentially other components in an easy to use framework
+that allows advanced Bayesian Markov chain Monte Carlo techniques to account for
+issues like variable and model selection through spike and slab priors. By
+including additional latent variables the model can be extended to incorporate
+non-Gaussian error distributions such as student T, Poisson, and binomial
+observation errors, or student T errors in the state space.
+
+The original implementation of Bayesian structural time series was in the bsts R
+package, which continues to e widely used. Bsts has recently been ported to
+Python. The R and python packages are not perfect substitutes. The R package
+supplies many more state models for univariate time series modeling, while the
+python package contains more recent work involving multivariate series.
 						</h5>
 					<p></p>
-					<h5 align="justify">Speaker bio: Steven is a Bayesian statistician with 20+ years of experience in academics and industry.  Much of his work has been as a data science enabler, by building tools that data scientists can use in their analyses. He is an expert in Bayesian computation, specializing in applied problems using Markov chain Monte Carlo.  He has extensive experience with hidden Markov models, time series modeling, mixture models, hierarchical models, and various forms of Bayesian regression.  
+					<h5 align="justify">Speaker bio:
+						<br>
+						
+						Steve Scott is the director of Data Science at Share This, a Palo Alto based
+startup focused on extracting information from a network of internet publishers.
 
-He has held director-level positions at Google and Capital One, and served on the faculty at USC's Marshall School of Business.  
+Dr Scott is a Bayesian statistician with a 25 year career spanning academics and
+industry. He received his PhD from the Harvard Statistics Department. He has
+served on the faculty of the USC Marshall School of Business, and has held
+director level positions at Capital One, Google, and multiple startups. Dr
+Scott's published work focuses on applied Bayesian computation, where he's made
+important contributions around hidden Markov models, multinomial logistic
+regression, support vector machines, sparse regression, time series modeling,
+and Bayesian approaches to reinforcement learning and multi-armed bandit
+problems.
+						</br>
 				</h5>
 				</div>
                     		</div>
@@ -254,50 +282,7 @@ He has held director-level positions at Google and Capital One, and served on th
 	</div>
   
 
-<!-- 	<div class="container">	
-		<div class="row" id="section-invited-1">
-               		<div class="col-sm-0 col-md-2">
-		       		<figure class="thumbnail">
-                        		<img src="img/boris.jpeg" class="img-responsive" alt="Image"></a>
-                    		</figure>
-                 	</div>
-                
 
-                	<div class="col-sm-0 col-md-6">
-                   		<div class="section-title">
-                        		<h3 align="left">Topic: N-BEATS</h3>
-					<p></p>
-					<h4  align="left">Boris N. Oreshkin </a></h4>
-                        		<h4  align="left"><small>Lead Research Scientist at Unity Technologies</small></h4>
-					<p></p>
-                        		<h5 align="left">
-										</h5>
-					<p></p>
-					<h5 align="left">Speaker bio: 
-		         
-				       </h5>
-				</div>
-                    		</div>
-                	</div>
-            	</div>
-	
-	
-		<div class="row" id="section-invited-1-bio">
-                	<div class="col-sm-0 col-md-6">
-                    		<div class="section-title">
-                        		<h3></h3>
-                        		
-					
-                    		</div>
-                	</div>
-			<div class="col-sm-0 col-md-6">
-                    		<div class="section-title">
-					<h3></h3>
-                        		
-                	</div>
-		</div>
-	</div>
-	 -->
 	<div class="container">	
 		<div class="row" id="section-invited-1">
                		<div class="col-sm-0 col-md-2">
@@ -358,17 +343,21 @@ He has held director-level positions at Google and Capital One, and served on th
 
                 	<div class="col-sm-0 col-md-8">
                    		<div class="section-title">
-                        		<h3 align="left">TBD</h3>
+                        		<h3 align="left">Customized Transformers for Time Series Forecasting</h3>
 					<p></p>
 					<h4  align="left">Qingsong Wen</a></h4>
                         		<h4  align="left"><small>Leader at Alibaba DAMO Academy</small></h4>
 					<p></p>
-                        		<h5 align="left">
+                        		<h5 align="justify">
+						
+						Although Transformer-based methods have significantly improved state-of-the-art results for time series forecasting, they are not only computationally expensive but more importantly, are unable to capture the global view of time series (e.g., overall trend) and handle complicated periodical patterns (e.g., multiple periods, variable periods). To address these challenges, we design two customized Transformers for time series forecasting. The first is termed as Frequency Enhanced Decomposed Transformer (FEDformer, in ICML’22) by combining Transformer with the seasonal-trend decomposition technique, in which the decomposition method captures the global profile of time series while Transformers capture more detailed structures. Furthermore, we exploit sparse representation in Fourier transform in the FEDformer to enhance the performance as well as reduce complexity to a linear complexity. The second is termed as Quaternion Transformer (Quatformer, in KDD’22) with three major components: 1) learning-to-rotate attention (LRA) based on quaternions which introduces learnable period and phase information to depict intricate periodical patterns; 2) trend normalization to normalize the series representations in hidden layers of the model considering the slowly varying characteristic of trend; 3) decoupling LRA using global memory to achieve linear complexity without losing prediction accuracy. Compared with state-of-the-art methods, extensive experiments on multiple time series benchmark datasets show that FEDformer and Quatformer can significantly improve the forecasting performance.
 					</h5>
 					<p></p>
-					<h5 align="justify">Speaker bio: Qingsong is currently a Staff Engineer / Team Leader at DAMO Academy-Decision Intelligence Lab, Alibaba Group US, working in the areas of intelligent time series analysis, data-driven intelligence decisions, machine learning, and signal processing. He received his M.S. and Ph.D. degrees in Electrical and Computer Engineering from Georgia Institute of Technology, Atlanta, USA. He has published over 30 top-ranked conference papers (ICML, KDD, SIGMOD, AAAI, etc.) and journal papers (PIEEE, TKDE, TWC, etc.), and won First Place in the 2022 ICASSP Grand Challenge (AIOps in Networks) Competition. He also gave a tutorial at KDD'22 on Robust Time Series Analysis and Applications. 
-						He is an Associate Editor for Neurocomputing, Guest Editor for Pattern Recognition, Guest Editor for Applied Energy, and regularly served as an SPC/PC member of the major DM/ML/AI conferences including KDD, ICDM, AAAI, IJCAI, etc.				      </h5>
-				</div>
+					<h5 align="justify">Speaker bio:
+						<br>
+				Dr. Qingsong Wen is currently a Staff Engineer / Team Leader at DAMO Academy-Decision Intelligence Lab, Alibaba Group (U.S.), working in the areas of intelligent time series analysis, data-driven intelligence decisions, machine learning, and signal processing. Before that, he worked at Futurewei, Qualcomm, and Marvell in the areas of big data and signal processing, and received his M.S. and Ph.D. degrees in Electrical and Computer Engineering from Georgia Institute of Technology, Atlanta, USA. He has published over 30 top-ranked conference and journal papers, and won the First Place in 2022 ICASSP Grand Challenge (AIOps in Networks) Competition. He is an Associate Editor for Neurocomputing, Guest Editor for Pattern Recognition, Guest Editor for Applied Energy, and regularly served as an SPC/PC member of the major DM/ML/AI conferences including KDD, ICDM, AAAI, IJCAI, etc.
+				</br>
+		          </div>
                     		</div>
                 	</div>
             	</div>
